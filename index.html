@@ -1,60 +1,80 @@
-<!DOCTYPE html> 
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
     <title>Mandara KU | Backend Developer</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<h1>Mandara KU</h1>
-<h3>Backend Software Developer (Fresher)</h3>
+<div class="slider">
 
-<hr>
+    <!-- INTRO -->
+    <section class="slide active">
+        <h1>Mandara KU</h1>
+        <h3>Backend Software Developer (Fresher)</h3>
+        <p>
+            Aspiring Backend Software Developer with hands-on experience in Java,
+            Spring Boot, and RESTful APIs.
+        </p>
+        <button onclick="nextSlide()">Next</button>
+    </section>
 
-<h2>About Me</h2>
-<p>
-    Aspiring Backend Software Developer with hands-on experience in Java,
-    Spring Boot, and RESTful APIs. Passionate about clean and modular code.
-</p>
+    <!-- ABOUT + SKILLS -->
+    <section class="slide">
+        <h2>About Me</h2>
+        <p>
+            Passionate about clean, modular code and backend development.
+        </p>
 
-<h2>Technical Skills</h2>
-<ul>
-    <li>Java, Spring Boot, REST APIs</li>
-    <li>JPA / Hibernate, MySQL</li>
-    <li>OOP, Collections, Multithreading</li>
-    <li>Git, Maven, IntelliJ IDEA</li>
-</ul>
+        <h2>Technical Skills</h2>
+        <ul>
+            <li>Java, Spring Boot, REST APIs</li>
+            <li>JPA / Hibernate, MySQL</li>
+            <li>OOP, Collections, Multithreading</li>
+            <li>Git, Maven, IntelliJ IDEA</li>
+        </ul>
 
-<h2>Internship Experience</h2>
-<p>
-    <b>Software Engineer Intern – Covalence Digital</b><br>
-    Designed RESTful APIs, CRUD operations, MySQL integration.
-</p>
+        <button onclick="nextSlide()">Next</button>
+    </section>
 
-<h2>Projects</h2>
-<ul>
-    <li>Phishing Detection Using Machine Learning</li>
-    <li>Crop Recommendation System</li>
-    <li>Pneumonia & COVID-19 Detection Using X-Ray Images</li>
-</ul>
+    <!-- EXPERIENCE + PROJECTS -->
+    <section class="slide">
+        <h2>Internship Experience</h2>
+        <p>
+            <b>Software Engineer Intern – Covalence Digital</b><br>
+            Designed RESTful APIs, CRUD operations, MySQL integration.
+        </p>
 
-<h2>Education</h2>
-<p>MCA – GTIMSR, Bangalore (CGPA: 8.4)</p>
-<p>BCA – Govt First Grade College, Thirthahalli (CGPA: 8.4)</p>
+        <h2>Projects</h2>
+        <ul>
+            <li>Phishing Detection Using Machine Learning</li>
+            <li>Crop Recommendation System</li>
+            <li>Pneumonia & COVID-19 Detection Using X-Ray Images</li>
+        </ul>
 
-<h2>Contact</h2>
-<p>Email: mandaramani071@gmail.com</p>
-<p>
-    LinkedIn:
-    <a href="https://linkedin.com/in/mandara-ku-a23097305" target="_blank">
-        Profile
-    </a>  
-</p>
-    
+        <button onclick="nextSlide()">Next</button>
+    </section>
+
+    <!-- EDUCATION + CONTACT -->
+    <section class="slide">
+        <h2>Education</h2>
+        <p>MCA – GTIMSR, Bangalore (CGPA: 8.4)</p>
+        <p>BCA – Govt First Grade College, Thirthahalli (CGPA: 8.4)</p>
+
+        <h2>Contact</h2>
+        <p>Email: mandaramani071@gmail.com</p>
+        <p>
+            LinkedIn:
+            <a href="https://linkedin.com/in/mandara-ku-a23097305" target="_blank">
+                Profile
+            </a>
+        </p>
+    </section>
+
+</div>
+
+<script src="script.js"></script>
 </body>
-</html>  
-
-
-
-
+</html>
